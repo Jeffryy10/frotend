@@ -1,0 +1,12 @@
+
+*.sketch
+*.fig.
+README-template.md
+style-guide.md
+design/
+preview.jpg
+##
+*.xd
+
+.DS_Store
+.prettierignore
