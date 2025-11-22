@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marcador</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- HOME -->
+    <div class="team">
+        <h3>HOME</h3>
+        <p id="score-home" class="score">0</p>
+        <button onclick="addPoints('home', 1)">+1</button>
+        <button onclick="addPoints('home', 2)">+2</button>
+        <button onclick="addPoints('home', 3)">+3</button>
+    </div>
+
+    <!-- TIEMPO -->
+    <div class="timer">
+        <p id="timer">00:00</p>
+        <button onclick="startTimer()">Start</button>
+        <button onclick="pauseTimer()">Pause</button>
+        <button onclick="resetTimer()">Reset</button>
+    </div>
+
+    <!-- GUEST -->
+    <div class="team">
+        <h3>GUEST</h3>
+        <p id="score-guest" class="score">0</p>
+        <button onclick="addPoints('guest', 1)">+1</button>
+        <button onclick="addPoints('guest', 2)">+2</button>
+        <button onclick="addPoints('guest', 3)">+3</button>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

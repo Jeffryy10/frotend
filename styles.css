@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-image: url("https://m.media-amazon.com/images/I/71cUg0+uhYS._AC_UF894,1000_QL80_.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    height: 50vh;
+    background: rgba(0,0,0,0.6);
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+}
+
+.team, .timer {
+    text-align: center;
+}
+
+.score {
+    font-size: 50px;
+    margin: 15px 0;
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: rgba(255,255,255,0.2);
+    font-weight: bold;
+}
+
+.timer #timer {
+    font-size: 60px;
+    font-family: 'Courier New', monospace;
+    padding: 15px 30px;
+    border-radius: 12px;
+    background-color: rgba(255,255,255,0.2);
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #ff4081;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #e91e63;
+    transform: scale(1.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
