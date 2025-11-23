@@ -1,0 +1,132 @@
+body {
+    background-color: #FDD835;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: black;
+}
+
+.container {
+    padding: 20px;
+}
+
+.card {
+    width: 90%;          /* adaptativo en móviles */
+    max-width: 300px;    /* mantiene el tamaño en desktop */
+    background-color: white;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0px black;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.illustration-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 24px;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #FDD835;
+    padding: 4px 12px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 800;
+    text-transform: capitalize;
+    margin-bottom: 12px;
+}
+
+.date {
+    font-size: 14px;
+    color: #6B6B6B;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 0;
+    margin-bottom: 12px;
+    transition: color 0.2s;
+    cursor: pointer;
+}
+
+.card-title:hover {
+    color: #FDD835;
+}
+
+.card-description {
+    font-size: 16px;
+    color: #6B6B6B;
+    line-height: 1.5;
+    margin-bottom: 24px;
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+}
+
+.avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 12px;
+}
+
+.author-name {
+    font-size: 14px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.img-2 {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    right: 0;
+    padding: 10px;
+}
+
+@media (max-width: 480px) {
+    .card {
+        padding: 16px;
+    }
+    .card-title {
+        font-size: 20px;
+    }
+    .card-description {
+        font-size: 14px;
+    }
+    .avatar {
+        width: 24px;
+        height: 24px;
+    }
+    .img-2 {
+        width: 40px;
+        height: 40px;
+    }
+    .tag {
+        font-size: 12px;
+        padding: 3px 8px;
+    }
+}
+

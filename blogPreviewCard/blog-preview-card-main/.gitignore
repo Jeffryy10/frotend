@@ -1,0 +1,13 @@
+*.sketch
+*.fig
+
+
+*.xd
+
+.DS_Store
+.prettierignore
+design/
+preview.jpg
+README-template.md
+style-guide.md
+assets/
