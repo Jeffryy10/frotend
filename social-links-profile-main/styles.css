@@ -35,7 +35,7 @@ h1 {
     color: #fff;
 }
 
-h4 {
+.country { 
     margin: 0 0 18px;
     color: hsl(75, 94%, 57%);
     font-weight: 600;
