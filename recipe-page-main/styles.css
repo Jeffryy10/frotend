@@ -1,0 +1,115 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: hsl(30, 54%, 90%);
+    font-family: "Outfit", sans-serif;
+    color: hsl(24, 5%, 18%);
+}
+
+
+.card {
+    width: min(720px, 100%);
+    margin: 80px auto 20px;
+    background: hsl(0, 0%, 100%);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+
+.card img {
+    width: 100%;
+    display: block;
+    border-radius: 12px;
+    margin-bottom: 28px;
+}
+
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-size: 2.5rem;
+    margin: 0 0 16px;
+}
+
+h2 {
+    font-family: "Young Serif", serif;
+    color: hsl(14, 45%, 36%);
+    margin: 28px 0 12px;
+}
+
+
+p {
+    line-height: 1.6;
+    color: hsl(30, 10%, 34%);
+}
+
+
+ul,
+ol {
+    padding-left: 22px;
+    color: hsl(30, 10%, 34%);
+}
+
+li {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+.card section:first-of-type {
+    background: hsl(330, 100%, 98%);
+    padding: 18px 20px;
+    border-radius: 12px;
+}
+
+.card section:first-of-type h2 {
+    font-family: "Outfit", sans-serif;
+    color: hsl(332, 51%, 32%);
+    margin: 0 0 10px;
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 12px;
+}
+
+td {
+    padding: 12px 0;
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+}
+
+td:last-child {
+    text-align: right;
+    color: hsl(14, 45%, 36%);
+    font-weight: 700;
+}
+
+
+.attribution {
+    text-align: center;
+    font-size: 11px;
+    margin: 24px 0 40px;
+    color: hsl(30, 10%, 34%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+    text-decoration: none;
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+    .card {
+        margin: 0;
+        width: 100%;
+        border-radius: 0;
+        padding: 28px 20px;
+    }
+}
