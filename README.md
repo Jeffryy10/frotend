@@ -19,6 +19,12 @@ This repository contains my Frontend Mentor challenges and personal frontend pra
 - Focus: Centered layout, responsive design
 - Live Demo: https://golden-horse-5353f0.netlify.app/
 
+### 4. Simple Omelette Recipe Page
+
+- Built with: HTML & CSS
+- Focus: Typography, color palette, clean layout
+- Live Demo: https://recipe-page-main1.netlify.app/
+
 ---
 
 ## What I'm Practicing
